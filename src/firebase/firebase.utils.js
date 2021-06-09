@@ -73,7 +73,7 @@ export const convertCollectionsSnapshotToMap = (collections) => {
         unsubscribe();
         resolve(userAuth);
       }, reject)
-    })
+    });
   }
 
   export const auth = firebase.auth();
